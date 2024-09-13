@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.calcHeight{
+    height: calc(100vh - 88px);
+    padding-top: 24px;
+}
+.homeCotainer{
+    position: relative;
+}
+.homeCotainer svg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 110%;
+    top: -40%;
+    transform: rotate(90deg);
+}
+.outerLineOne,
+.outerLineTwo,
+.outerLineThree,
+.outerLineFour,
+.outerLineFive,
+.outerLineSix{
+    position: absolute;
+    border-radius: 50%;
+    border: dotted 1px #EEEEEE;
+    opacity: 0.4;
+}
+.outerLineOne{
+    width: 400px;
+    height: 400px;
+    top: 60%;
+    animation: orbit 6s linear infinite;
+}
+.outerLineTwo{
+    width: 500px;
+    height: 500px;
+    top: 50%;
+}
+.outerLineThree{
+    width: 600px;
+    height: 600px;
+    top: 40%;
+    animation: orbit 10s linear infinite;
+}
+.outerLineFour{
+    width: 700px;
+    height: 700px;
+    top: 30%;
+    animation: orbit 14s linear infinite;
+}
+.outerLineFive{
+    width: 800px;
+    height: 800px;
+    top: 20%;
+}
+.outerLineSix{
+    width: 900px;
+    height: 900px;
+    top: 10%;
+    animation: orbit 17s linear infinite;
+}
+.outerLineOne::before,
+.outerLineTwo::before,
+.outerLineThree::before,
+.outerLineFour::before,
+.outerLineFive::before,
+.outerLineSix::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.outerLineSix::before{
+    left: 30%;
+    right: auto;
+    background-color: #00B3C3;
+    top: 3%;
+}
+.outerLineFive::before{
+    left: 11%;
+    right: auto;
+    background-color: #986B1B;
+    top: 17%;
+}
+.outerLineFour::before{
+    left: auto;
+    right: 1%;
+    background-color: #0B864C;
+    top: 35%;
+}
+.outerLineThree::before{
+    left: -1%;
+    right: auto;
+    background-color: #00B3C3;
+    top: 55%;
+}
+.outerLineTwo::before{
+    left: auto;
+    right: 26%;
+    background-color: #0B864C;
+    top: -34%;
+}
+.outerLineOne::before{
+    left: auto;
+    right: -18%;
+    background-color: #fff;
+    top: -16%;
+}
+@keyframes orbit {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+@media(max-width: 767px){
+    .outerLineOne,
+    .outerLineTwo,
+    .outerLineThree,
+    .outerLineFour,
+    .outerLineFive,
+    .outerLineSix{
+        display: none;
+    }
+}
+.footerMenu{
+    position: relative;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+@media(max-width: 767px){
+    .footerMenu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
