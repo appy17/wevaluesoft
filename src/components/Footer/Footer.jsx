@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
         <>
-            <footer className='bg-[#040E1A] w-full py-16 px-4'>
+            <footer className='bg-[#040E1A] w-full py-16 px-4 bg-black'>
                 <div className='max-w-[1145px] mx-auto'>
                     
                     <div className='flex flex-col items-center justify-center text-center'>
@@ -19,13 +19,13 @@ function Footer() {
                         <div>
                             <ul className='list-none text-white leading-10'>
                                 <li>
-                                    <a href="#" className='hover:text-gray-400'>www.vikarno.com</a>
+                                    <a href="#" className='hover:text-gray-400'>http://wevaluesoft.com</a>
                                 </li>
                                 <li>
-                                    <a href="mailto:vikarno@gmail.com" className='hover:text-gray-400'>vikarno@gmail.com</a>
+                                    <a href="#" className='hover:text-gray-400'>wevaluesoft@gmail.com</a>
                                 </li>
                                 <li>
-                                    <a href="tel:+989121120912" className='hover:text-gray-400'>+989121120912</a>
+                                    <a href="tel:95527 67463" className='hover:text-gray-400'>95527 67463</a>
                                 </li>
                             </ul>
                         </div>
@@ -64,9 +64,13 @@ function Footer() {
                                     <a href="#" className='hover:text-gray-400'>Privacy Policy</a>
                                 </li>
                             </ul>
+                         
                         </div>
                     </div>
-                </div>
+                </div>   
+                <div className='flex justify-center mt-4'>
+                            <a href="http://royalswebtech.com/" className="mt-4 text-sm text-gray-100 sm:order-first sm:mt-0">Designed and Developed by ©Royals WebTech 2024</a>
+                            </div>
             </footer>
         </>
     );

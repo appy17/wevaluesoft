@@ -4,29 +4,29 @@ import { IoIosArrowForward } from "react-icons/io";
 function Products() {
     const cards = [
         {
-            text: 'Vikarno Trade',
+            text: 'wevaluesoft Trade',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illo provident officia quisquam rerum veritatis laudantium voluptatem nisi! Ad ab quasi soluta blanditiis magni sit voluptate maxime mollitia accusantium ullam?',
-            link: 'link.vikarnotrade.com'
+            link: 'link.wevaluesoft.com'
         },
         {
-            text: 'Vikarno Shop',
+            text: 'wevaluesoft Shop',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illo provident officia quisquam rerum veritatis laudantium voluptatem nisi! Ad ab quasi soluta blanditiis magni sit voluptate maxime mollitia accusantium ullam?',
-            link: 'link.vikarnoshop.com'
+            link: 'link.wevaluesoft.com'
         },
         {
-            text: 'Vikarno Gateway',
+            text: 'wevaluesoft Gateway',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illo provident officia quisquam rerum veritatis laudantium voluptatem nisi! Ad ab quasi soluta blanditiis magni sit voluptate maxime mollitia accusantium ullam?',
-            link: 'link.vikarnogateway.com'
+            link: 'link.wevaluesoft.com'
         },
         {
-            text: 'Vikarno Pay',
+            text: 'wevaluesoft Pay',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illo provident officia quisquam rerum veritatis laudantium voluptatem nisi! Ad ab quasi soluta blanditiis magni sit voluptate maxime mollitia accusantium ullam?',
-            link: 'link.vikarnopay.com'
+            link: 'link.wevaluesoft.com'
         },
         {
-            text: 'Vikarno Exchange',
+            text: 'wevaluesoft Exchange',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illo provident officia quisquam rerum veritatis laudantium voluptatem nisi! Ad ab quasi soluta blanditiis magni sit voluptate maxime mollitia accusantium ullam?',
-            link: 'link.vikarnoexchange.com'
+            link: 'link.wevaluesoft.com'
         },
     ];
 

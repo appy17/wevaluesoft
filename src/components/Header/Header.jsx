@@ -14,7 +14,7 @@ function Header() {
             <div className='max-w-[1145px] mx-auto'>
                 <div className='container mx-auto flex items-center justify-between'>
                     <div className='text-2xl font-bold'>
-                        <a href="/" className='text-[#00B3C3]'><span className='text-white'>V</span>IKARNO</a>
+                        <a href="/" className='text-[#00B3C3]'><span className='text-white'>W</span>EVALUESOFT</a>
                     </div>
 
                     <div className='md:hidden' onClick={toggleNav}>
