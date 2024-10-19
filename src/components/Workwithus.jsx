@@ -14,7 +14,7 @@ function Workwithus() {
                         <h4 className='text-white text-lg md:text-xl'>WORK WITH US</h4>
                         <h2 className='text-white text-3xl md:text-4xl my-4 font-bold'>Technology We Serve</h2>
                         <p className='w-full md:w-2/3 lg:w-1/2 text-white my-4 text-sm md:text-md'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores aliquam fugit magni sequi. Iste harum quis, odio pariatur exercitationem officia adipisci laboriosam repellendus aspernatur magni eum facilis quo quidem.
+                        At Royal's Webtech, we leverage cutting-edge technologies to deliver innovative solutions that drive growth and efficiency for our clients. Our expertise spans a wide range of modern tools and frameworks to ensure robust, scalable, and secure applications.
                         </p>
                     </div>
 

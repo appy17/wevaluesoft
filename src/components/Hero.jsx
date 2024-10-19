@@ -24,10 +24,11 @@ function Hero() {
                             </radialGradient>
                             </defs>
                         </svg>
-                        <h4 className='text-white text-sm md:text-xl relative'>WE ARE HEROS OF</h4>
-                        <h1 className='text-white font-bold text-2xl md:text-4xl my-2 relative'>Design, Development, and</h1>
-                        <h1 className='text-white font-bold text-2xl md:text-4xl my-2 relative'>Identify For Your Product</h1>
-                        <p className='text-white my-4 text-xs md:text-sm relative'>Leading digital agency with solid design and development expertise.</p>
+                        {/* <h4 className='text-white text-sm md:text-xl relative'>WE ARE HEROS OF</h4> */}
+                        <h1 className='text-white font-bold text-2xl md:text-4xl my-2 relative'>Revolutionizing the way</h1>
+                        <h1 className='text-white font-bold text-2xl md:text-4xl my-2 relative'>you do business</h1>
+                        <p className='text-white mt-4 mb-0 text-xs md:text-sm relative'>Elevate your business with our expertly crafted web and mobile apps,</p>
+                        <p className='text-white mt-2 mb-0 text-xs md:text-sm relative'>complete with end-to-end support and guidance</p>
                         <button className='px-16 py-3 text-[#00B3C3] border-2 border-[#00B3C3] text-sm md:text-xl font-bold my-6 focus:outline-none relative
                         hover:bg-white
                         '>

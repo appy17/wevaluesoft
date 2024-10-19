@@ -30,17 +30,18 @@ function Contact() {
                     <div className='grid grid-cols-1 md:grid-cols-[70%,30%] gap-6 my-12'>
                         <div className='text-white'>
                             <h2 className='text-[#00B3C3] text-4xl font-bold mb-3'>CONTACT US</h2>
-                            <p className='leading-8 pr-16'>
+                            {/* <p className='leading-8 pr-16'>
                                 <span className='text-[#00B3C3]'>We at</span> Vikarne are looking to provide a solution to solve the software problems of the market. For this purpose, we have gathered a group of experts in various branches of the software field and relying on the knowledge acquired in the top universities and
-                            </p>
-
+                            </p> */}
+                            <p className='text-lg my-2'>Intersted in Working With Us?</p>
+                            <p className='uppercase'>Let's Talk & Get Started</p>
                             <div className='flex items-center gap-16 my-4'>
                                 <div className='bg-[#021325] p-4 border border-gray-700'>
                                     <FaPhoneVolume className='text-[#00B3C3] text-2xl' />
                                 </div>
                                 <div>
                                     <p>Office:</p>
-                                    <p>(406)555-0120</p>
+                                    <p>+91 95290 41400</p>
                                 </div>
                             </div>
                             <div className='flex items-center gap-16 my-4'>
@@ -49,7 +50,7 @@ function Contact() {
                                 </div>
                                 <div>
                                     <p>Email:</p>
-                                    <p>abc@gmail.com</p>
+                                    <a href='#'>sales@appristine.com</a>
                                 </div>
                             </div>
                             <div className='flex items-center gap-16 my-4'>
@@ -58,7 +59,8 @@ function Contact() {
                                 </div>
                                 <div>
                                     <p>Address:</p>
-                                    <p>2118 Thomnidge Cir. Syracuse, Connecticut 35624</p>
+                                    {/* <p>2118 Thomnidge Cir. Syracuse, Connecticut 35624</p> */}
+                                    <p>Floor No. 2, Office No. 101, 201, 206 Spot 18 Mall, Wakad - Bhosari BRTS Rd, Wakad Junction, Pimple Saudagar, Pune, Maharashtra, India, 411017</p>
                                 </div>
                             </div>
                         </div>

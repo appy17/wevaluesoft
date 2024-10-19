@@ -3,13 +3,13 @@ import React from 'react'
 function Footer() {
     return (
         <>
-            <footer className='bg-[#040E1A] w-full py-16 px-4 bg-black'>
+            <footer className='bg-[#040E1A] w-full py-16 px-4'>
                 <div className='max-w-[1145px] mx-auto'>
                     
                     <div className='flex flex-col items-center justify-center text-center'>
                         <h2 className='text-white text-3xl md:text-4xl my-4 font-bold'>Technology We Serve</h2>
                         <p className='w-full md:w-2/3 lg:w-1/2 text-white my-4 text-sm md:text-md'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores aliquam fugit magni sequi. Iste harum quis, odio pariatur exercitationem officia.
+                        At Royal's Webtech, we leverage cutting-edge technologies to deliver innovative solutions that drive growth and efficiency for our clients. Our expertise spans a wide range of modern tools and frameworks to ensure robust, scalable, and secure applications.
                         </p>
                     </div>
 
